@@ -8,4 +8,5 @@ scikit-learn
 joblib == 1.2.0
 numpy == 1.23.5
 openpyxl == 3.1.2
+APScheduler == 3.10.1
 #-e .

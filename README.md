@@ -5,3 +5,9 @@
 - After you scrape webpage script will save data in csv format. Than you can analyse data in notebook (my notebook add in project) and also train a model on collected data. You can also use script convertor.py to convert it to excel file and connect to Tableau for analysis and visualization (everything added in project repository). 
 
 - User Setup.py file to install requirements.txt
+
+- - Project Update
+
+- Automatic Selenium added (new script AutomaticScraper.py). You can chose how often do you want script to run, for example in script is every day at 11:32 morning. Cron is a time-based job scheduling syntax that consists of five fields: minute, hour, day of the month, month, and day of the week so you can chose your options.
+
+- Also requirements.txt added becuase for automatic scraper you need to install APScheduler package  
